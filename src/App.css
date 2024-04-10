@@ -1,0 +1,28 @@
+.App {
+    display: flex; /* Enable Flexbox */
+    min-height: 100vh; /* Set minimum height to viewport height */
+    flex-direction: column; /* Stack content vertically */
+    
+    }
+.Footer {
+    
+    height: 100px; /* Adjust height as needed */
+    
+    bottom: 0;
+  }
+  .content{
+
+    flex-grow: 1;
+  }
+/* CSS for phone screens */
+@media only screen and (max-width: 768px) {
+    
+    .navbar-collapse {
+      display: none;
+    }
+    
+  
+
+}
+  
+  
